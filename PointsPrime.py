@@ -3,7 +3,7 @@
 # Date Authored: 08/22/2024
 # File: PointsPrime.py
 # Description: This file contains a program that calculates the total points for multiple courses based on user input. 
-#              It uses logic to determine the course points and outputs the final total after adjustments.
+# It uses logic to determine the course points and outputs the final total after adjustments.
 
 
 
@@ -23,10 +23,10 @@ for i in range(courses): # For loop so that multiple calculations may be made ba
         is done by using the f-strings found in python's documentation.
         
         """
-
-        min_enrolled = int(input(f"Input the Minimum number of Enrolled Students for Course #{i+1}:\n"))
-        enrolled = int(input(f"Input the number of Enrolled Students for Course #{i+1}:\n"))
-        course_points = float(input(f"Input the number of Course Points for Course #{i+1}:\n"))
+s
+        min_enrolled = int(input("Input the Minimum number of Enrolled Students for Course :\n"))
+        enrolled = int(input("Input the number of Enrolled Students for Course :\n"))
+        course_points = float(input("Input the number of Course Points for Course :\n"))
         
 
         # Enrolled Condition given in the assignment. course_points is only
@@ -42,5 +42,5 @@ extra_points = float(input("Input the number of Extra Points:\n"))
 
 #  Calculate the resulting number of points based on the given .
 result = sum(total_course_points) + extra_points - BASE_POINTS
-print(f"The resulting points are: {result} points\n")
-
+print("The resulting points are: ")
+print(result)
